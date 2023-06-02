@@ -1,0 +1,60 @@
+
+1:Explain Public static void main(String args[])?
+
+hear the method is to run the program,public is accessspecifier and static is class its just shows that no need to create any object
+void is the return type to method,and main is the method and String args are 
+
+2: Class and object
+	class: is the one where it contains the actions in it and its an blueprint of the object
+	object :object is member of instance wich contain states and behaviours
+	
+3:JVM,JRE,JDK
+1: jdk is the java development kit wich contains 2 parts in it JRE AND JVM when ever the .java 
+ source will allows to transper data into JRE   and jdk physically exist.
+2: JRE is JAVA RUN TIME ENVOIRNMENT  wich contains set of libraries+jvm wich physically exist
+3:JVM:- JVM is the java virtual matchine functionality of this JVM is loads the byte code,Verify the byte code,Excecute the byte code.
+
+4:Explain Contructor and its type?
+Constructor is the special type of memeber wich is same as class name .
+there are 2 types of constructors are available 
+1:default constructor :-- a constructor wich dont have any parameter is known as default constructor
+
+2:Parameterised constructor:-- a constructor wich have 1 or more parameter is known as parameterised constructor..
+
+5:Difference between this and super keyword and this()?
+	this is the keyword wich indicate the that the object is refering from the same class.
+	super is the keyword wich is indicate that the object is refering from parent class.
+
+7:Why main method is static and explain the method types ?
+Hear in the main method static indicate that no need to create any object to the method  thats why main method is static.
+*static method is also one of the method in it  this method is one blue print its self 
+ 
+9:What do you know about java class loading? Explain java class loaders?
+java class loading is the process wich instrectly load the class in it.
+
+10:Can we have private Constructor and can we overload the constructor explain with an example?
+
+public Class exam(){
+
+	yes we can add private constructor inside the class its acceptable but we can not make constructor as final...
+	private exam(){
+	system .out .println("we can add private constructor in class")
+	}
+	
+	private exam(){
+	system .out .println("we can not over load multiple constructor in class")
+	}
+	
+	we can not over load the constructor just beacuse of multiple constructors are not acepted in one class..
+}
+
+12:Can we use instance variable inside the static method
+
+No we can not use instance variable inside the satic method .
+
+
+
+
+
+
+
